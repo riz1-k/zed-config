@@ -1,0 +1,41 @@
+[
+  {
+    "bindings": {
+      "ctrl-e": "workspace::ToggleLeftDock"
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "ctrl-k": null
+    }
+  },
+  {
+    "context": "Terminal",
+    "bindings": {
+      "ctrl-shift-n": "workspace::NewTerminal",
+      "ctrl-`": "workspace::ToggleBottomDock"
+    }
+  },
+  {
+    "context": "ProjectPanel && not_editing",
+    "bindings": {
+      "enter": "project_panel::Open",
+      "r": "project_panel::Rename",
+      "d": "project_panel::Delete",
+      "n": "project_panel::NewFile"
+    }
+  },
+  {
+    "context": "Terminal",
+    "bindings": {
+      "ctrl-shift-w": ["ctrl-w"]
+    }
+  },
+  {
+    "context": "FileFinder",
+    "bindings": {
+      "ctrl-\"": "editor::ExpandAllHunkDiffs"
+    }
+  }
+]
